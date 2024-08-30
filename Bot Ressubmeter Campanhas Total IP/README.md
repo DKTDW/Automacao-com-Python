@@ -1,11 +1,11 @@
-# Automação de Resubmissão de Campanhas
+# Automação de Ressubmissão de Campanhas
 
 Este projeto automatiza o processo de login em um sistema, verifica campanhas que precisam ser ressubmetidas e gera um relatório em formato Excel com informações das campanhas.
 
 ## Funcionalidades
 
 - Login automático em um sistema web.
-- Verificação de campanhas que precisam ser resubmetidas.
+- Verificação de campanhas que precisam ser ressubmetidas.
 - Geração de planilha Excel com dados das campanhas ressubmetidas.
 
 ## Tecnologias Utilizadas
