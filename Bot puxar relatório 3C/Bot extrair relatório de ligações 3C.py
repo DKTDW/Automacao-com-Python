@@ -15,7 +15,7 @@ import pygetwindow as gw
 def acessar_e_capturar_selenium_v2():
     print('Executando Segundo Script...')
     driver = webdriver.Chrome()
-    login_url = "https://acostacontactcenter.3c.plus/login"
+    login_url = "https://url3c.3c.plus/login"
     ramal = "ramal"
     senha = "senha"
 
@@ -48,7 +48,7 @@ def acessar_e_capturar_selenium_v2():
     time.sleep(10)
 
     # Acessar o relatório de chamadas
-    driver.get('https://acostacontactcenter.3c.plus/manager/calls-report')
+    driver.get('https://url3c.3c.plus/manager/calls-report')
 
     hoje = datetime.now()
     dia_anterior = hoje - timedelta(days=1)
