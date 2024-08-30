@@ -17,7 +17,7 @@ def enviar_imagem_whatsapp_discagem():
     NOME_DO_GRUPO = "Acompanhamento Operação"  # Nome do grupo ou contato para enviar as imagens
     IMAGE_PATHS = [
         # Caminhos das imagens a serem enviadas
-        r"X:\11 - Tecnologia da Informação - TI\02 - Suporte\13- Dérick\dio\Hora a Hora - Eder\RCB.png"
+        r"caminho/para/imagem"
     ]
 
     # Inicializa o serviço do ChromeDriver usando o WebDriverManager
@@ -91,7 +91,7 @@ def enviar_imagem_whatsapp_discagem():
             EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[2]/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div'))
         )
         
-        description = f"Hora a Hora - {os.path.basename(image_path).split('.')[0]} - {datetime.now().strftime('%H')}H"
+        description = f"Texto da Imagem"
         caption_box = browser.find_element(By.XPATH, '//*[@id="app"]/div/div[2]/div[2]/div[2]/span/div/div/div/div[2]/div/div[1]/div[3]/div/div/div[2]/div[1]/div[1]/p')
         caption_box.send_keys(description)
         
