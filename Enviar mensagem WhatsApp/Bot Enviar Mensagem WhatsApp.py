@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 def enviar_imagem_whatsapp_discagem():
     print("Enviando Prints no grupo...")
     # Configurações do usuário
-    NOME_DO_GRUPO = "Acompanhamento Operação"  # Nome do grupo ou contato para enviar as imagens
+    NOME_DO_GRUPO = "nome do grupo"  # Nome do grupo ou contato para enviar as imagens
     IMAGE_PATHS = [
         # Caminhos das imagens a serem enviadas
         r"caminho/para/imagem"
